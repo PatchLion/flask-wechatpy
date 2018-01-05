@@ -12,6 +12,8 @@ from wechatpy.exceptions import (
     WeChatOAuthException,
 )
 
+from wechatpy.pay.api import WeChatJSAPI
+
 
 class Wechat(object):
 
